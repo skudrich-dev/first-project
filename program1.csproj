@@ -1,0 +1,138 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{2D116349-EE7D-4F96-9564-7CB6C718428B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>program1</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SmallBasicLibrary">
+      <HintPath>C:\Program Files (x86)\Microsoft\Small Basic\SmallBasicLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="System Volume Information\IndexerVolumeGuid" />
+    <None Include="System Volume Information\WPSettings.dat" />
+    <None Include="Кудрич Сергей Леонидович.docx" />
+    <None Include="МЕТОДАААА\Аудирование.docx" />
+    <None Include="МЕТОДАААА\вывод на монологическую речь.docx" />
+    <None Include="МЕТОДАААА\Грамматика.doc" />
+    <None Include="МЕТОДАААА\Диалог.docx" />
+    <None Include="МЕТОДАААА\Проект Dreams come true.docx" />
+    <None Include="МЕТОДАААА\Чтение.docx" />
+    <None Include="НОВГОРОД ВЕЛИКИЙ.pptx" />
+    <None Include="Правка. Конф.docx" />
+    <None Include="Сережа\Кольчуга-окрМир.pptx" />
+    <None Include="Сережа\Меры веса.pptx" />
+    <None Include="Сережа\Мистер Умник.pptx" />
+    <None Include="Сережа\Природа Ростовской области.pptx" />
+    <None Include="Сережа\Россия – удивительная страна.pptx" />
+    <None Include="Сережа\Таганрог.pptx" />
+    <None Include="Сережа\ТПО41_ОкрМир.pdf" />
+    <None Include="УЧЕБНИК КУЛИНАРИЯ\uchebnik %281%29.docx" />
+    <None Include="УЧЕБНИК КУЛИНАРИЯ\вопросы.docx" />
+    <None Include="Чтение_070118.docx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program2.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1111.jpg" />
+    <Content Include="МЕТОДАААА\A-Road-Accident.mp3" />
+    <Content Include="МЕТОДАААА\Gamer Life - The History of Blizzard ПРОЕКТ.mp4" />
+    <Content Include="МЕТОДАААА\One Hundredth of a Second ДИАЛОГ.mp4" />
+    <Content Include="МЕТОДАААА\videoplayback ПРОЕКТ.mp4" />
+    <Content Include="рисунки.png" />
+    <Content Include="УЧЕБНИК КУЛИНАРИЯ\1.html" />
+    <Content Include="УЧЕБНИК КУЛИНАРИЯ\2.html" />
+    <Content Include="УЧЕБНИК КУЛИНАРИЯ\3.html" />
+    <Content Include="УЧЕБНИК КУЛИНАРИЯ\cover.jpg" />
+    <Content Include="УЧЕБНИК КУЛИНАРИЯ\end.html" />
+    <Content Include="УЧЕБНИК КУЛИНАРИЯ\index.html" />
+    <Content Include="УЧЕБНИК КУЛИНАРИЯ\intro.html" />
+    <Content Include="УЧЕБНИК КУЛИНАРИЯ\intro.jpg" />
+    <Content Include="УЧЕБНИК КУЛИНАРИЯ\menu.html" />
+    <Content Include="УЧЕБНИК КУЛИНАРИЯ\test.html" />
+    <Content Include="УЧЕБНИК КУЛИНАРИЯ\title.html" />
+    <Content Include="УЧЕБНИК КУЛИНАРИЯ\дно кастрюли.jpg" />
+    <Content Include="УЧЕБНИК КУЛИНАРИЯ\кухонные утварь и инструменты 2.jpg" />
+    <Content Include="УЧЕБНИК КУЛИНАРИЯ\кухонные утварь и инструменты 3.jpg" />
+    <Content Include="УЧЕБНИК КУЛИНАРИЯ\кухонные утварь и инструменты 5.jpg" />
+    <Content Include="УЧЕБНИК КУЛИНАРИЯ\кухонные утварь и инструменты.jpg" />
+    <Content Include="УЧЕБНИК КУЛИНАРИЯ\обработка продуктов питания 1.jpg" />
+    <Content Include="УЧЕБНИК КУЛИНАРИЯ\обработка продуктов питания 2.jpg" />
+    <Content Include="УЧЕБНИК КУЛИНАРИЯ\обработка продуктов питания 3.jpg" />
+    <Content Include="УЧЕБНИК КУЛИНАРИЯ\очистка жиров.jpg" />
+    <Content Include="УЧЕБНИК КУЛИНАРИЯ\помещение и очаг 1.jpg" />
+    <Content Include="УЧЕБНИК КУЛИНАРИЯ\приготовление пищи на открытом огне 2.jpg" />
+    <Content Include="УЧЕБНИК КУЛИНАРИЯ\приготовление пищи на открытом огне.jpg" />
+    <Content Include="УЧЕБНИК КУЛИНАРИЯ\электродуховка.jpg" />
+    <Content Include="УЧЕБНИК КУЛИНАРИЯ\электроочаг 3.jpg" />
+    <Content Include="УЧЕБНИК КУЛИНАРИЯ\электроочаг.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
